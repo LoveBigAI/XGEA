@@ -373,6 +373,7 @@ class NR_GraphAttentionMu(nn.Module):
             
 
             features = self.activation(new_features)
+            features_c = features.clone()
             outputs.append(features)
 
         outputs = torch.cat(outputs, dim=-1)
