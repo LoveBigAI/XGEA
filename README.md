@@ -16,7 +16,7 @@ Both the  Bilingual datasets (DBP15K) and cross-KG datasets (FB15K-DB15K/YAGO15K
 Our XGEA is trained an evaluated both on A100 and A40.
 
 ## Training MCLEA
-For DBP15K, use the shell:
+For DBP15K, use the script:
 ```bash
 python DualAmodal.py
 ```
@@ -24,4 +24,4 @@ while for FB15K-DB15K/YAGO15K, there is a slightly different configuration, we w
 ## Acknowledgement
 
 Our codes are  based on [EVA](https://github.com/cambridgeltl/eva), [Dual-AMN](https://github.com/MaoXinn/Dual-AMN), [ContEA](https://github.com/nju-websoft/ContEA), really appreciate their work.
-If you have any questions, please feel free to contact me bgxulive@gmail.com
+If you have any questions, please feel free to contact me bgxulive@gmail.com.
